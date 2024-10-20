@@ -1,4 +1,4 @@
-import MergeSortedArray.Solution;
+import MergeSortedArray.Java.Solution;
 
 import java.util.Scanner;
 
