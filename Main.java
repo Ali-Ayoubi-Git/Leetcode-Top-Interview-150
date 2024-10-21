@@ -1,7 +1,4 @@
-import MergeSortedArray.Java.Solution;
-import RemoveElement.Solution2;
-
-import java.util.Scanner;
+import RemoveElement.java.Solution2;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package MergeSortedArray.Kt
+package MergeSortedArray.kotlin
 
 class MainKotlin {
     fun mainKt() {
