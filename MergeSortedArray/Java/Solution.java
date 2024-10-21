@@ -24,7 +24,10 @@ package MergeSortedArray.Java;
 خروجی: [1]
 توضیح: چون m = 0 است، هیچ عنصری در nums1 وجود ندارد. عدد 0 فقط برای اطمینان از این که نتیجه‌ی ادغام در nums1 جا می‌گیرد، وجود دارد.*/
 
+import java.util.Scanner;
+
 public class Solution {
+    Scanner scanner = new Scanner(System.in);
     public void merge(
             int[] nums1
             , int m
@@ -49,5 +52,26 @@ public class Solution {
                 nums1[wp--] = nums2[n2p--];
             }
         }
+    }
+    public void margeRun() {
+        Solution solution=new Solution();
+        System.out.print("Enter the number of elements in nums1 (m): ");
+        int m = scanner.nextInt();
+        System.out.print("Enter the number of elements in nums2 (n): ");
+        int n = scanner.nextInt();
+        // ایجاد آرایه nums1 با اندازه m+n
+        int[] nums1 = new int[m + n];
+        System.out.println("Enter the elements for nums1:");
+        for (int i = 0; i < m; i++){
+            nums1[i]= scanner.nextInt();
+        }
+        // ایجاد آرایه nums2 با اندازه m+n
+        int[] nums2 = new int[m + n];
+        System.out.println("Enter the elements for nums2:");
+        for (int i = 0; i < n; i++){
+            nums2[i]= scanner.nextInt();
+        }
+        solution.merge(nums1, m, nums2, n);
+        System.out.println(java.util.Arrays.toString(nums1));
     }
 }
