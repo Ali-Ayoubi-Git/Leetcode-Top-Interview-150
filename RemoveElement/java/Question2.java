@@ -41,7 +41,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 import java.util.Scanner;
 
-public class Solution2 {
+public class Question2 {
     Scanner scanner = new Scanner(System.in);
 
     public int removeElement(
@@ -66,7 +66,7 @@ public class Solution2 {
     }
 
     public void removeElementRun() {
-        Solution2 solution2 = new Solution2();
+        Question2 question2 = new Question2();
         System.out.print("Enter the number of val: ");
         int val = scanner.nextInt();
         System.out.print("Enter the number of elements in nums : ");
@@ -76,7 +76,7 @@ public class Solution2 {
         for (int i = 0; i < numsIndex; i++) {
             nums[i] = scanner.nextInt();
         }
-        solution2.removeElement(nums, val);
+        question2.removeElement(nums, val);
     }
 
 }
