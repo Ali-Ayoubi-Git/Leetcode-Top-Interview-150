@@ -1,7 +1,7 @@
-package RemoveElement.kotlin
+//package RemoveElement.kotlin
 
-class Question3 {
-    fun removeElement(nums: IntArray, `value`: Int) {
+//class Solution3 {
+ //   fun removeDuplicates(nums: IntArray, `value`: Int) {
 
-    }
-}
+  //  }
+//}

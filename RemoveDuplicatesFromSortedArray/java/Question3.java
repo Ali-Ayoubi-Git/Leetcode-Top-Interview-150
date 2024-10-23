@@ -1,4 +1,7 @@
 package RemoveDuplicatesFromSortedArray.java;
+
+import java.util.Scanner;
+
 /*
 Given an integer array nums sorted in non-decreasing order,
 remove the duplicates in-place such that each unique element appears only once.
@@ -40,17 +43,37 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
 
 */
-import java.util.Scanner;
-
 public class Question3 {
     Scanner scanner = new Scanner(System.in);
 
     public int removeDuplicates(int[] nums) {
-
-        return 0;
+        if (nums.length < 2) return 1;
+        int prev = nums[0];
+        int iw = 1;
+        int k = 1;
+        for (int ir = 1; ir < nums.length; ir++) {
+            if (nums[ir] != prev) {
+                k++;
+                nums[iw] = nums[ir];
+                prev = nums[ir];
+                iw++;
+            }
+        }
+        System.out.println(k);
+        System.out.println(java.util.Arrays.toString(nums));
+        return k;
     }
-    public void removeDuplicatesRun() {
+    public void removeDuplicatesRun () {
+        Scanner scanner = new Scanner(System.in);
+        Question3 question3 = new Question3();
+        System.out.print("Enter the number of elements in nums : ");
+        int numsIndex = scanner.nextInt();
+        System.out.println("Enter the nums elements: ");
+        int[] nums = new int[numsIndex];
+        for (int i = 0; i < numsIndex; i++) {
+            nums[i] = scanner.nextInt();
+        }
+        question3.removeDuplicates(nums);
 
     }
-
 }
