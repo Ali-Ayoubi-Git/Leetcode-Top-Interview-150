@@ -1,11 +1,17 @@
+import MajorityElement.java.Question4;
 import RemoveDuplicatesFromSortedArray.java.Question3;
 
 public class Main {
     public static void main(String[] args) {
+        Question4 question4=new Question4();
 
+
+
+
+//////////////////////////////////////////////////
         //Remove Duplicates from Sorted Array Question(3)
-        Question3 question3=new Question3();
-        question3.removeDuplicatesRun();
+       // Question3 question3=new Question3();
+       // question3.removeDuplicatesRun();
 
 
 //////////////////////////////////////////////////
