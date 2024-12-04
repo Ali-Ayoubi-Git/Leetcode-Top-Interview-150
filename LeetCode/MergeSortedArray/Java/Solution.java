@@ -1,4 +1,4 @@
-package MergeSortedArray.Java;
+package LeetCode.MergeSortedArray.Java;
 /*شما دو آرایه‌ی عدد صحیح به نام‌های nums1 و nums2 دارید که به ترتیب غیر‌کاهشی مرتب شده‌اند.
 همچنین دو عدد صحیح m و n داده شده است که به ترتیب نشان‌دهنده‌ی تعداد عناصر موجود در nums1 و nums2 هستند.
 

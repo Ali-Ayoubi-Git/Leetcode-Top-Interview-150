@@ -1,4 +1,4 @@
-package RemoveDuplicatesFromSortedArray.java;
+package LeetCode.RemoveDuplicatesFromSortedArray.java;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package RemoveElement.kotlin
+package LeetCode.RemoveElement.kotlin
 
 class Solution {
     fun removeElement(nums: IntArray, `value`: Int): Int {

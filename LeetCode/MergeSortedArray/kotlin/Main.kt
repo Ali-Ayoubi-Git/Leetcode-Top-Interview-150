@@ -1,4 +1,4 @@
-package MergeSortedArray.kotlin
+package LeetCode.MergeSortedArray.kotlin
 
 class MainKotlin {
     fun mainKt() {
